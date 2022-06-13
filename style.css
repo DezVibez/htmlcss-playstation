@@ -1,0 +1,16 @@
+img {
+    max-width: 100%;
+    height: 100px;
+}
+
+.container {
+    background-color: wheat;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.jumbo {
+    background-image: url(img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
