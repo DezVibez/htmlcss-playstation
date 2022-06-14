@@ -7,15 +7,25 @@ ul {
 }
 
 .container {
-    background-color: wheat;
+    
     padding: 5px;
     border: 1px solid black;
 }
+
+/*Section color e background*/
 
 .jumbo {
     background-image: url(img/jumbo-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+footer {
+    background-color: rgb(0,67,155);
+}
+
+.play-now {
+    background-color: rgb(21,28,59);
 }
 
 .presentation .card {
@@ -52,6 +62,9 @@ ul {
     background-color: rgb(44,100,230);
 }
 
+header .bttn {
+    background-color: rgb(54,54,54);
+}
 
 /*section colors*/
 
