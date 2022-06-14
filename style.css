@@ -41,12 +41,12 @@ ul {
 
 }
 
-/*Buttos*/
+/*Buttons, ne creo uno per tutti e poi sovrascrivo solo color e bg-color*/
 
 .bttn {
     border-radius: 20px;
     background-color: white;
-    padding:10px;
+    padding:8px;
     display: inline-block;
     color: white;
     background-color: rgb(44,100,230);
