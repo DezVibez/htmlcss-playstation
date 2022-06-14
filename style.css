@@ -36,3 +36,45 @@ img {
 .new-game img{ max-width: 100%;
 
 }
+
+/*Ho creato un container personalizzato
+per breakpoint cone le media-query*/
+
+.container-social {
+    max-width: 90%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.container-social img{
+    width: 50%;
+    padding: 10px;
+}
+
+@media screen and (min-width:576px){
+
+    .container-social {
+        max-width: 85%;
+    }
+    .container-social img{
+        width: 25%;
+    }
+}
+
+@media screen and (min-width:768px){
+
+    .container-social {
+        max-width: 60%;
+    }
+    
+}
+
+@media screen and (min-width:≥992px){
+    .container-social {
+        max-width: 50%;
+    }
+    
+}
+
