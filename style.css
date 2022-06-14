@@ -9,7 +9,7 @@ ul {
 .container {
     
     padding: 5px;
-    border: 1px solid black;
+   
 }
 
 /*Section color e background*/
@@ -69,6 +69,15 @@ header .bttn {
 .play-plus .bttn {
     background-color:rgb(217,218,220) ;
     color: rgb(44,100,230) ;
+}
+
+.secondary-jumbo .bttn, .jumbo .bttn {
+    background-color: rgb(205,61,16);
+}
+
+.play-now .bttn {
+    background-color: rgb(245,245,245);
+    color: black
 }
 
 /*section colors*/
