@@ -66,6 +66,11 @@ header .bttn {
     background-color: rgb(54,54,54);
 }
 
+.play-plus .bttn {
+    background-color:rgb(217,218,220) ;
+    color: rgb(44,100,230) ;
+}
+
 /*section colors*/
 
 .play-plus { background-color: rgb(190,188,187)}
