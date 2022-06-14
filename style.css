@@ -2,6 +2,10 @@ img {
     max-width: 100%;
 }
 
+ul {
+    list-style-type: none;
+}
+
 .container {
     background-color: wheat;
     padding: 5px;
@@ -38,7 +42,7 @@ img {
 }
 
 /*Ho creato un container personalizzato
-per breakpoint cone le media-query*/
+per breakpoint con le media-query*/
 
 .container-social {
     max-width: 90%;
