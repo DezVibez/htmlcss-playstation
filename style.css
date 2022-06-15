@@ -12,12 +12,17 @@ ul {
    
 }
 
+header .container-fluid {
+    z-index: 1;
+}
+
 /*Section color e background*/
 
 .jumbo {
     background-image: url(img/jumbo-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 200px
 }
 
 footer {
