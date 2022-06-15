@@ -1,3 +1,6 @@
+
+/*Generals*/
+
 img {
     max-width: 100%;
 }
@@ -7,9 +10,11 @@ ul {
 }
 
 .container {
-    
-    padding: 5px;
-   
+    padding: 10px;
+}
+
+header {
+    color: rgb(109, 110, 112);
 }
 
 header .container-fluid {
@@ -36,16 +41,23 @@ header ul li i {
     padding-top: 200px
 }
 
-footer {
-    background-color: rgb(0,67,155);
+.secondary-jumbo {
+    background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding-top: 100px
 }
+
+.whats-new { background-color: rgb(31,31,31)}
+
+.play-plus { background-color: rgb(190,188,187)}
 
 .play-now {
     background-color: rgb(21,28,59);
 }
 
-.presentation .card {
-    border-radius: 10px;
+footer {
+    background-color: rgb(0,67,155);
 }
 
 .blue-line {
@@ -53,18 +65,51 @@ footer {
     background-color: rgb(44,100,230);
 }
 
+/*hover fx*/
+
+.bttn:hover{
+    cursor: pointer;
+    transform: scale(105%);
+}
+
+header .bttn:hover {
+    background-color:black;
+}
+
+.jumbo .bttn:hover {
+    transform: scale(110%);
+}
+
+header li:hover {
+    color: black;
+    cursor: pointer;
+}
+
+header span:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translatey(-10%)
+}
+
 .card2:hover {
     border-bottom: 2px solid rgb(44,100,230);
 }
 
-.secondary-jumbo {
-    background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
-    background-repeat: no-repeat;
-    background-size:cover;
+.card2 {
+    position: relative;
 }
 
-.new-game img{ max-width: 100%;
-
+.card2:hover::before { /*Overlay*/
+    content: "";
+    background-color: rgba(0,0,0,5%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 /*Buttons, ne creo uno per tutti e poi sovrascrivo solo color e bg-color*/
@@ -96,10 +141,6 @@ header .bttn {
     color: black
 }
 
-/*section colors*/
-
-.play-plus { background-color: rgb(190,188,187)}
-.whats-new { background-color: rgb(31,31,31)}
 
 
 
